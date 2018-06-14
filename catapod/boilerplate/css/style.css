@@ -206,8 +206,14 @@ html {
   left: 50%;
   animation: wave 4.4s ease-in-out 0s infinite alternate;
 }
+body{
+      overflow: visible;
+}
 }
 @media (min-width: 600px) {
+  body{
+        overflow: hidden;
+  }
 .logo{
 width: 200px;
 height: 160px;
@@ -293,8 +299,11 @@ animation: wave 4.4s ease-in-out 0s infinite alternate;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5px 15px 5px 15px;
-    top:100%;
+    top: 93%;
 }
+}
+.mail{
+      opacity: 0.6;
 }
 @font-face {
   font-family: 'icomoon';
@@ -362,7 +371,7 @@ animation: wave 4.4s ease-in-out 0s infinite alternate;
   height: 100%;
   top: 80%;
   color: #6cb7dc;
-  margin-top: 60px;
+  margin-top: 10px;
   font-size: 60px;
 }
 .service{
